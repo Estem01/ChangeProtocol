@@ -1,5 +1,5 @@
 name: MultiProtocol
-api: [2.0.0, 2.1.0, 3.0.0-ALPHA10, 3.0.0-ALPHA11,3.0.0-ALPHA12, 3.0.1, 4.0.0]
+api: [2.0.0, 2.1.0, 3.0.0-ALPHA10, 3.0.0-ALPHA11,3.0.0-ALPHA12, 3.0.0]
 version: 1.0.1
 author: Estem0
 main: multiprotocol\MultiProtocol
