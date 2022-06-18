@@ -26,7 +26,7 @@ class MultiProtocol extends PluginBase implements Listener {
     /**
      * @param DataPacketReceiveEvent $event
      */
-    public function onLogin(DataPacketReceiveEvent $event) {
+    public function onLogin(DataPacketReceiveEvent $event) : void{
 
         $pk = $event->getPacket();
 
