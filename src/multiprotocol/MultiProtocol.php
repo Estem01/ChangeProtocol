@@ -17,7 +17,7 @@ use pocketmine\plugin\PluginBase;
  */
 class MultiProtocol extends PluginBase implements Listener {
 
-    public function onEnable() {
+    public function onEnable() : void{
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
     }
 
@@ -32,7 +32,7 @@ class MultiProtocol extends PluginBase implements Listener {
             return;
         }
 
-        $player = $event->getPlayer();
+        $player = $event->getServer->getPlayer();
         $currentProtocol = ProtocolInfo::CURRENT_PROTOCOL;
 
         if($pk->protocol !== $currentProtocol) {
