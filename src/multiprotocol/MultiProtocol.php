@@ -37,7 +37,7 @@ class MultiProtocol extends PluginBase implements Listener {
 
        public function onCompletion() : void
 {
-  $server = Server::getInstance();
+       $server = Server::getInstance();
 }
 
         $player = $event->getServer->getPlayer();
