@@ -23,6 +23,11 @@ class MultiProtocol extends PluginBase implements Listener {
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
     }
 
+   public function onCompletion() : void
+{
+  $server = Server::getInstance();
+}
+
     /**
      * @param DataPacketReceiveEvent $event
      */
