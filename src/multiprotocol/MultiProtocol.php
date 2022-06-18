@@ -8,6 +8,8 @@ use pocketmine\event\Listener;
 use pocketmine\event\server\DataPacketReceiveEvent;
 use pocketmine\network\mcpe\protocol\LoginPacket;
 use pocketmine\network\mcpe\protocol\ProtocolInfo;
+use pocketmine\Server;
+use pocketmine\Player;
 use pocketmine\plugin\PluginBase;
 
 /**
