@@ -4,12 +4,12 @@ declare(strict_types=1);
 
 namespace multiprotocol;
 
+use pocketmine\Server;
+use pocketmine\player\Player;
 use pocketmine\event\Listener;
 use pocketmine\event\server\DataPacketReceiveEvent;
 use pocketmine\network\mcpe\protocol\LoginPacket;
 use pocketmine\network\mcpe\protocol\ProtocolInfo;
-use pocketmine\Server;
-use pocketmine\Player;
 use pocketmine\plugin\PluginBase;
 
 /**
@@ -33,7 +33,7 @@ class MultiProtocol extends PluginBase implements Listener {
         if(!$pk instanceof LoginPacket) {
             return;
         }
-
+        $player = $event->getServer->getPlayer();
         $currentProtocol = ProtocolInfo::CURRENT_PROTOCOL;
 
         if($pk->protocol !== $currentProtocol) {
