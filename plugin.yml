@@ -1,6 +1,6 @@
 name: MultiProtocol
-api: [4.5.0]
-version: 1.0.1
+api: [4.5.0, 4.0.0]
+version: 1.0.1dev1
 author: Estem0
 main: multiprotocol\MultiProtocol
 description: Allows to join players with other version
