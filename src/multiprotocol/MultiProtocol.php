@@ -23,7 +23,7 @@ class MultiProtocol extends PluginBase implements Listener {
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
     }
 
-    public function getName() : void{
+    public function getName() : string{
         return;
     }
 
