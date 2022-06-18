@@ -40,7 +40,7 @@ class MultiProtocol extends PluginBase implements Listener {
   $server = Server::getInstance();
 }
 
-        $player = $event->$getServer->getPlayer();
+        $player = $event->getServer->getPlayer();
         $currentProtocol = ProtocolInfo::CURRENT_PROTOCOL;
 
         if($pk->protocol !== $currentProtocol) {
