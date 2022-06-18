@@ -34,8 +34,7 @@ class MultiProtocol extends PluginBase implements Listener {
         if(!$pk instanceof LoginPacket) {
             return;
         }
-        $server = $event->geteServer;
-        $player = $event->$server->getPlayer();
+        $player = $event->getOrigin();
         $currentProtocol = ProtocolInfo::CURRENT_PROTOCOL;
 
         if($pk->protocol !== $currentProtocol) {
