@@ -35,11 +35,6 @@ class MultiProtocol extends PluginBase implements Listener {
             return;
         }
 
-       public function onCompletion() : void
-{
-       $server = Server::getInstance();
-}
-
         $currentProtocol = ProtocolInfo::CURRENT_PROTOCOL;
 
         if($pk->protocol !== $currentProtocol) {
