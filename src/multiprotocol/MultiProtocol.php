@@ -23,6 +23,9 @@ class MultiProtocol extends PluginBase implements Listener {
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
     }
 
+    public getName ( ) : string{
+        return username string
+    }
 
     /**
      * @param DataPacketReceiveEvent $event
@@ -34,9 +37,7 @@ class MultiProtocol extends PluginBase implements Listener {
         if(!$pk instanceof LoginPacket) {
             return;
         }
-        public getName ( ) : string{
-        return username	string
-        }
+      
         $name = $event->getName();
         $player = $event->getOrigin();
         $currentProtocol = ProtocolInfo::CURRENT_PROTOCOL;
