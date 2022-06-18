@@ -1,0 +1,8 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/Estem01/MultiProtocol
+build-by-default: true
+branches:
+- main
+projects:
+  MultiProtocol:
+    path: ""
+...
