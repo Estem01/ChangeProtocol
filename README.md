@@ -1,3 +1,8 @@
 # MultiProtocol
-A MultiProtocol plugin advanced for Pocketmine 3.0.0-ALPHA.X
-And 2.0.0
+A MultiProtocol plugin advanced for Pocketmine
+
+# For which server: 
+To connect players of other versions
+
+# How to use: 
+Just install it and put it in the plugins folder
