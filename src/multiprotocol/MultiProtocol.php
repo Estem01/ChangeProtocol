@@ -37,19 +37,14 @@ class MultiProtocol extends PluginBase implements Listener {
     /**
      * @param DataPacketReceiveEvent $event
      */
-    public function onLogin(DataPacketReceiveEvent $event) : void{
+    public function onDataPacketRecieve (DataPacketReceiveEvent $ev) : void{
 
-        $pk = $event->getPacket();
+    	$pk = $ev->getPacket();
 
-        if(!$pk instanceof LoginPacket) {
-            return;
-        }
+    	if ($pk instanceof LoginPacket) : void{
 
-        $currentProtocol = ProtocolInfo::CURRENT_PROTOCOL;
-
-        if (in_array($pk->protocol, $this->acceptProtocol)) :  void{
+    		if (in_array($pk->protocol, $this->acceptProtocol)) : void{
     			$pk->protocol = ProtocolInfo::CURRENT_PROTOCOL;
-            
         }
     }
 }
