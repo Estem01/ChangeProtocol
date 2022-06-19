@@ -27,7 +27,7 @@ class MultiProtocol extends PluginBase implements Listener {
 		$this->acceptProtocol = (new Config($this->getDataFolder()."accept.yml", Config::YAML))->get("accept-protocol");
 		
 		if ($this->acceptProtocol === false || empty($this->acceptProtocol)) {
-			$config->acceptProtocol[] = ProtocolInfo::CURRENT_PROTOCOL;
+			$this->acceptProtocol[] = ProtocolInfo::CURRENT_PROTOCOL;
 			$config = new Config($this->getDataFolder()."accept.yml", Config::YAML);
 			$config->set("accept-protocol", [ProtocolInfo::CURRENT_PROTOCOL]);
 			$config->save();
@@ -41,9 +41,9 @@ class MultiProtocol extends PluginBase implements Listener {
 
     	$pk = $ev->getPacket();
 
-    	if ($pk instanceof LoginPacket) : void{
+    	if ($pk instanceof LoginPacket) {
 
-    		if (in_array($pk->protocol, $this->acceptProtocol)) : void{
+    		if (in_array($pk->protocol, $this->acceptProtocol)) {
     			$pk->protocol = ProtocolInfo::CURRENT_PROTOCOL;
         }
     }
