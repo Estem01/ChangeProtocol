@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace multiprotocol;
+namespace changeprotocol;
 
 use pocketmine\event\Listener;
 use pocketmine\event\server\DataPacketReceiveEvent;
