@@ -23,7 +23,6 @@ class MultiProtocol extends PluginBase implements Listener {
     public function onEnable() : void{
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
 
-        @mkdir($this->getDataFolder());
 		$this->acceptProtocol = [534, 533, 532, 530, 526, 524, 516, 514, 512];
     }
      
