@@ -32,8 +32,8 @@ class MultiProtocol extends PluginBase implements Listener {
 			$config->set("accept-protocol", [ProtocolInfo::CURRENT_PROTOCOL]);
 			$config->save();
 		}
-                if ($this->denyProtocol === false || empty($this->denvProtocol)) {
-			$this->denvProtocol[] = ProtocolInfo::CURRENT_PROTOCOL;
+                if ($this->denyProtocol === false || empty($this->denyProtocol)) {
+			$this->denyProtocol[] = ProtocolInfo::CURRENT_PROTOCOL;
                 }
     }
 
