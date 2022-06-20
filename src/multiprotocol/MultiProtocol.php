@@ -21,7 +21,7 @@ class MultiProtocol extends PluginBase implements Listener {
 
     public function onEnable() : void{
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
-        $this->getLogger->info("§3MultiProtocol_1.0.2 Only 1.19 versions Enable")
+        $this->getLogger()->info("§3MultiProtocol_1.0.2 Only 1.19 versions Enable")
 
 		$this->acceptProtocol = [534, 533, 532, 530, 526, 524, 516, 514, 512];
     }
