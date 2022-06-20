@@ -37,6 +37,9 @@ class MultiProtocol extends PluginBase implements Listener {
                 }
     }
 
+    public function onLoginPlayerEvent() : void{
+       $pgk = getPacketPlayer();
+
     /**
      * DataPacketReceiveEvent event
      */
