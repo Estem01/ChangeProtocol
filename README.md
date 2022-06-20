@@ -11,5 +11,5 @@ Basically it changes the player's protocol to the server version but only 1.19
 Just install it and put it in the plugins folder
 
 # See the new builds at:
-https://poggit.pmmp.io/ci/estem01/MultiProtocol
+https://poggit.pmmp.io/ci/estem01/ChangeProtocol
 
