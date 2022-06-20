@@ -25,7 +25,6 @@ class MultiProtocol extends PluginBase implements Listener {
 
 		$this->acceptProtocol = [534, 533, 532, 530, 526, 524, 516, 514, 512];
     }
-     
 
     /**
      * DataPacketReceiveEvent event
