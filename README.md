@@ -1,4 +1,4 @@
-[![](https://poggit.pmmp.io/shield.state/MultiProtocol)](https://poggit.pmmp.io/p/MultiProtocol)
+[![](https://poggit.pmmp.io/shield.state/ChangeProtocol)](https://poggit.pmmp.io/p/ChangeProtocol)
 
 # ChangeProtocol
 A ChangeProtocol plugin Simple for Pocketmine
