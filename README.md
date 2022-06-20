@@ -1,3 +1,5 @@
+[![](https://poggit.pmmp.io/shield.state/MultiProtocol)](https://poggit.pmmp.io/p/MultiProtocol)
+
 # MultiProtocol
 A MultiProtocol plugin advanced for Pocketmine
 
