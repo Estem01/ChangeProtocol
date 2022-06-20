@@ -15,7 +15,7 @@ use pocketmine\plugin\PluginBase;
  * @package multiprotocol
  * @author Estem0
  */
-class MultiProtocol extends PluginBase implements Listener {
+class ChangeProtocol extends PluginBase implements Listener {
 
     public $acceptProtocol = [];
 
