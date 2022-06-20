@@ -45,6 +45,7 @@ class MultiProtocol extends PluginBase implements Listener {
 
     		if (in_array($pk->protocol, $this->acceptProtocol)) {
     			$pk->protocol = ProtocolInfo::CURRENT_PROTOCOL;
-        }
-    }
+         }
+      }
+   }
 }
