@@ -1,10 +1,11 @@
 [![](https://poggit.pmmp.io/shield.state/MultiProtocol)](https://poggit.pmmp.io/p/MultiProtocol)
 
-# MultiProtocol
-A MultiProtocol plugin advanced for Pocketmine
+# ChangeProtocol
+A ChangeProtocol plugin Simple for Pocketmine
 
 # what is it for?
 To connect players of all versions 1.19 Only
+Basically it changes the player's protocol to the server version but only 1.19
 
 # How to use?
 Just install it and put it in the plugins folder
