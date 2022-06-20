@@ -36,6 +36,9 @@ class MultiProtocol extends PluginBase implements Listener {
 			$this->denyProtocol[] = ProtocolInfo::CURRENT_PROTOCOL;
                 }
     }
+     public function onLoginPlayerEvent() : void{
+         $pgk = getPacketPlayer();
+}
 
     /**
      * DataPacketReceiveEvent event
