@@ -24,17 +24,7 @@ class MultiProtocol extends PluginBase implements Listener {
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
 
         @mkdir($this->getDataFolder());
-		$this->acceptProtocol = (new Config($this->getDataFolder()."accept.yml", Config::YAML))->get("accept-protocol");
-		
-		if ($this->acceptProtocol === false || empty($this->acceptProtocol)) {
-			$this->acceptProtocol[] = ProtocolInfo::CURRENT_PROTOCOL;
-			$config = new Config($this->getDataFolder()."accept.yml", Config::YAML);
-			$config->set("accept-protocol", [ProtocolInfo::CURRENT_PROTOCOL]);
-			$config->save();
-		}
-                if ($this->denyProtocol === false || empty($this->denyProtocol)) {
-			$this->denyProtocol[] = ProtocolInfo::CURRENT_PROTOCOL;
-                }
+		$this->acceptProtocol = [534, 533, 532, 530, 526, 524, 516, 514, 512];
     }
      public function onLoginPlayerEvent() : void{
          $pgk = getPacketPlayer();
