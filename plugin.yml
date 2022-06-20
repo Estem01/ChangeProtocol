@@ -1,6 +1,6 @@
 name: ChangeProtocol
-api: [4.5.1, 4.5.0, 4.4.0, 4.3.0, 4.2.0, 4.1.0, 4.0.0]
+api: [4.5.1]
 version: 1.0.0
 author: Estem0
-main: changeprotocol\ChangeProtocol
+main: Estem0\ChangeProtocol
 description: Connect all players from 1.19 Only
