@@ -35,7 +35,7 @@ class MultiProtocol extends PluginBase implements Listener {
     }
 
     /**
-     * @param DataPacketReceiveEvent $event
+     * DataPacketReceiveEvent event
      */
     public function onDataPacketRecieve (DataPacketReceiveEvent $ev) : void{
 
