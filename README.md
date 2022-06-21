@@ -1,4 +1,4 @@
-new account temporarily https://github.com/Estem02/ChangeProtocol
+Discontinued!! New project https://github.com/Estem01/MultiProtocol
 
 # ChangeProtocol
 A ChangeProtocol plugin Simple for Pocketmine
